@@ -220,7 +220,7 @@
 .mainnav.always-active .topbar-social li{color: #cbcbcb;}
 
 .header{background-color: #eee;overflow: hidden;position: relative;}
-.header-wrapper{display: flex;flex-direction: column;padding-bottom: 250px;z-index: 2;position: relative;min-height: 100vh;}
+.header-wrapper{display: flex;flex-direction: column;padding-bottom: 250px;z-index: 2;position: relative;min-height: 120vh;}
 
 .header-heart{position: absolute;top: 50vh;left: 50%;transform: translate(-50%, -60%);z-index: 3;}
 .header-heart .heart{width: 3.3em;height: 3.3em;max-width: none;max-width: none;}
@@ -321,7 +321,7 @@
 .topnav-follower{position: absolute;width: 0;height: 3px;background-color: currentColor;bottom: 0;left: 0;transition: all .25s;max-width: 150px;}
 
 
-.header-caption{margin-top: 250px;display: flex;align-items: center;flex: auto;}
+.header-caption{margin-top: 150px;display: flex;align-items: center;flex: auto;}
 .header-reviews{margin-top: 150px;}
 .header-marquee{background-color: #000;color: #CBCBCB;height: 48px;text-align: center;align-items: center;display: flex;font-weight: 700;white-space: nowrap;overflow: hidden;}
 
@@ -360,7 +360,7 @@
 .errorpage-heart:nth-child(4) .icon{transform: rotate(-105.83deg);}
 
 .section:last-child {
-    padding-bottom: 250px;
+    padding-bottom: 60px;
 }
 
 .section {
@@ -377,7 +377,7 @@
 
 .section__contrast {background-color: #eee;padding: 100px 0 200px;}
 
-.inner-wrapper{padding: 0 100px;}
+.inner-wrapper{padding: 50px 100px;}
 
 .section-caption{display: inline-flex;position: relative;display: inline-flex;align-items: center;margin-bottom: 100px;}
 .section-caption::before{content: "";width: 76px;margin-right: 24px;margin-left: -100px;height: 1px;background-color: currentColor;}
@@ -398,7 +398,7 @@
 .reviews-col + .reviews-col{margin-left: 8px;}
 .reviews-pretitle{text-transform: uppercase;font-size: 8px;line-height: 1;letter-spacing: 0.175em;}
 .reviews-logo{margin-top: 4px;width: 64px;}
-.reviews-stars{width: 100%;background-image: url(https://dd.nyc/wp-content/themes/dd.nyc/static//img/star.svg);background-position: left center;background-size: contain;margin-bottom: auto;display: flex;background-repeat: no-repeat;}
+.reviews-stars{width: 100%;background-image: url(../img/star.svg);background-position: left center;background-size: contain;margin-bottom: auto;display: flex;background-repeat: no-repeat;}
 .reviews-stars::before{content: "";flex: none;width: 0;padding-top: 20%;}
 .reviews-num{text-transform: uppercase;font-size: 8px;letter-spacing: 0.225em;line-height: 1;margin-top: 4px;}
 
@@ -492,7 +492,7 @@
 .service-preview{position: relative;max-width: 540px;}
 
 .service-content-copy{min-height: 100%;display: flex;flex-direction: column;}
-.service-content-copy .service-content{transition: all .25s;width: 100%;min-height: 100%;display: flex;flex-direction: column;flex: auto;}
+.service-content-copy .service-content{transition: all 1s;width: 100%;min-height: 100%;display: flex;flex-direction: column;flex: auto;}
 .service-content-copy .service-action{border-bottom-width: 0;}
 .service-content-copy::after{content: ""; width: 100%;height: 1px;display: block;background-color: currentColor;transition: transform .5s;transform-origin: right bottom;}
 .service-content-copy.hidden::after{transform: scaleX(0);}
@@ -1056,7 +1056,7 @@
 @media screen and (max-width: 1599.98px) {
 
     .wrapper{padding: 0 70px;}
-    .inner-wrapper{padding: 0 50px;}
+    .inner-wrapper{padding: 50px 50px;}
 
     .title__main{font-size: 100px;}
     .citebox{font-size: 100px;}
@@ -1094,7 +1094,7 @@
 
 @media screen and (max-width: 1439.98px) {
 
-    .header-caption{}
+    .header-caption{margin-top: 120px;}
     .header-reviews{margin-top: 120px;}
     .shiftbox-content{margin-left: 20px;}
 
@@ -1489,7 +1489,6 @@
     .inner-wrapper{padding: 0;}
     .title__main{font-size: 52px;}
     .textbox{margin: 0;font-size: 20px;line-height: 1.2;}
-    .section-caption{margin-left: 0;}
 
 }
 
@@ -1678,14 +1677,7 @@ span.wpcf7-form-control-wrap {
     background-size:180px auto!important;
     animation-name:none!important;
 }
-.button-container-div {
-    width: 300px;
-    height: 300px;
-    border: 1px solid #ff8899;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 i.utm {
     display:none;
 }
@@ -1761,7 +1753,7 @@ i.utm {
     display:block;
     width: 180px;
     height: 130px;
-    background:url("https://dd.nyc/wp-content/themes/dd.nyc/images/heart.svg") no-repeat center center;
+    background:url("../../images/heart.svg") no-repeat center center;
     position:absolute;
     left:50%;
     margin:0 0 0 -90px;
@@ -1922,7 +1914,7 @@ span.wpcf7-list-item-label.choise {
     align-items:center;
     width: 180px;
     height: 130px;
-    background:url("https://dd.nyc/wp-content/themes/dd.nyc/images/heart.svg") no-repeat center center;
+    background:url("../../images/heart.svg") no-repeat center center;
     color:#FFF;
     margin:0 auto;
     position:relative;
